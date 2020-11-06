@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AdDirective } from './ad.directive';
+import { AdBannerComponent } from './ad-banner/ad-banner.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AdDirective,
+    AdBannerComponent
   ],
   imports: [
     BrowserModule,
