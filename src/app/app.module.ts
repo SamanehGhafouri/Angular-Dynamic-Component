@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdDirective } from './ad.directive';
 import { AdBannerComponent } from './ad-banner/ad-banner.component';
+import { HeroJobAdComponent } from './hero-job-ad/hero-job-ad.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdDirective,
-    AdBannerComponent
+    AdBannerComponent,
+    HeroJobAdComponent
   ],
   imports: [
     BrowserModule,
